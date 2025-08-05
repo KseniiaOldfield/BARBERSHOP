@@ -1,0 +1,802 @@
+
+
+.navbar {
+    width: 100%;    
+    background-color: #262626;
+    height: 100%;
+}
+
+.navColor {
+    color: white;
+    opacity: 0;
+}
+.navColor:hover {
+    color: white;
+}
+
+.navColor2 {
+    color: white;
+}
+.navColor2:hover {
+    text-transform: uppercase;
+    color: white;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.fix-bg {
+    background-image: url("barbershop1.jpg");
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #262626;
+}
+
+.context {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(18, 18, 18, 0.3);
+}
+
+.size {
+margin-top: 300px;
+font-family: 'Chango', cursive;
+font-size: 15px;
+}
+
+.size1 {
+font-size: 70px;
+}
+
+.aboutColor {
+    color: brown;
+    font-size: 24px;
+}
+
+.hr {
+    border: 1px solid brown;
+}
+
+.tel {
+    text-decoration: none;
+    color: brown;
+    font-size: 24px;
+}
+.tel:hover {
+    color: red;
+}
+
+.tableStyle {
+    border-bottom: dotted 0.1px rgb(194, 192, 192);
+    width:45px;
+    height:45px;
+}
+
+
+.squares {
+    display: flex;
+    
+}
+
+.light {
+    width: 10px;
+    height: 40px;
+    border-radius: 80px;
+    background-color: rgb(249, 252, 252);
+}
+
+.red {
+    color: #fff;
+    text-shadow:1px 1px #262626;
+    font-family: Helvetica, sans-serif;
+    width: 10px;
+    height: 40px;
+    border-radius: 80px;
+    background-color: rgb(248, 220, 220);
+}
+
+.blue {
+    color: #fff;
+    text-shadow:1px 1px #262626;
+    font-family: Helvetica, sans-serif;
+    width: 10px;
+    height: 40px;
+    border-radius: 80px;
+    background-color: #cceef5;
+}
+
+#home {
+    clip-path: url(#cache);
+  }
+  
+  #red {
+    fill: none;
+    opacity: 0.15;
+    stroke: #CE1B5F;
+    stroke-width: 12;
+    stroke-miterlimit:10;
+    animation: show 4s;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 800;
+    animation: draw 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; 
+  }
+  
+  #blue {
+    fill: none;
+    opacity: 0.15;
+    stroke: #06A1C4;
+    stroke-width: 12;
+    stroke-miterlimit:10;
+    animation: show 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  #light-blue {
+    fill: none;
+    opacity: 0.15;
+    stroke: #06A1C4;
+    stroke-width: 7;
+    stroke-miterlimit:10;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 800;
+    animation: draw 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;    
+  }
+  
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+   }
+      }
+  
+  @keyframes show {
+    0% {
+      opacity: 0.15;
+   }
+    50% {
+      opacity: 0.2;
+   }
+    100% {
+      opacity: 0.15;
+   }
+      }
+
+
+#myVideo {
+    width: 100%;
+    border-bottom: 30px solid #262626;
+    border-top: 30px solid #262626;
+    border-radius: 30px;
+}
+
+.servicesStyle {
+    color: brown;
+    font-size: 24px;
+    transition: 1s;
+    text-align: center; 
+}
+.servicesStyle:hover {
+    transform: scale(1.3);
+}
+
+
+.bb {
+    transition: 1s;
+    text-align: center;
+}
+    
+.bb:hover {
+    transform: scale(1.3);
+}
+
+
+.btn0 {
+    text-decoration: none;
+    color: #262626;
+    transition: 1s;
+    text-align: center;
+    font-size: 25px;
+}
+.btn0:hover {
+    background-color: #262626;
+    color: white;
+    transform: scale(1.3);
+    border-radius: 20px;
+}
+
+.btnp {
+    padding: 20px;
+}
+
+
+.b12 {
+    position: relative;
+    width: 81%;
+    margin-left: 10% ;
+    background-image: url(bgc.webp);
+}
+
+.textSize {
+    font-size: 50px;
+    transition: 1s;
+    text-align: center;
+}
+.textSize:hover {
+    transform: scale(1.3);
+}
+
+.textSize2 {
+    transition: 1s;
+    text-align: center;
+    font-size: 17px;
+}
+.textSize2:hover {
+    transform: scale(1.1);
+}
+
+.text-block {
+    position: absolute;
+    bottom: -50px;
+    right: 20px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.shop {
+    width:300px;
+    height: 220px;
+    transition: width 1s, height 1s, bacground 1s, transform 1s;
+    text-align: center;
+    border-radius: 3px;
+    border: 3px solid #8c4429;
+    
+}
+.shop:hover {
+    width: 500px;
+    height: 420px;
+    transform: rotate(360deg);
+}
+
+.teamStyle {
+    display: flex;
+    justify-content: space-around;
+}
+
+.teamSize
+.imgSize {
+    height:100%;
+}
+
+
+body {
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+col {
+    height: 900px;
+}
+
+.mrbarber {
+    width: 150px;
+}
+
+.barberText {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.barberName {
+    margin-top: 3px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #262626;
+    color: white;
+    width: 350px;
+}
+
+    .flip-card {
+    width: 400px;
+    height: 550px;
+    border-radius: 3px;
+    perspective: 1000px;      
+}
+
+    .flip-card-inner {
+    position: relative;
+    width: 350px;
+    height: 550px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+    
+    .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+    .flip-card-front {
+    position: absolute;
+    width: 350px;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+    .flip-card-back {
+    position: absolute;
+    width: 350px;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+}
+
+    .flip-card-back {
+    background-color:white;
+    color: #262626;
+    transform: rotateY(180deg);
+    border: 1px solid #262626;
+    border-radius: 3px;
+}
+
+
+.priceStyle {
+    font-size: 18px;
+    color: brown;
+    background-color: #262626;
+    transition: 1s;
+    text-align: center;
+}
+.priceStyle:hover {
+    transform: scale(1.1);
+}
+
+
+.fixed-bg {
+    background-image: url("bg3.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.review {
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.contact {
+    display: flex;  
+}
+
+.contact2 {
+    text-decoration: underline;
+    margin-left: 10px;
+    color: black;
+}
+
+.contact2:hover {
+    color: #8c4429;
+}
+
+.bookonline {
+    color: rgb(99, 98, 98);
+    text-decoration: none;
+}
+
+.bookonline:hover {
+    color: #8c4429;
+}
+
+.socialNetwork {
+    color: rgb(114, 113, 113);
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.socialNetwork:hover {
+    color: #8c4429;
+}
+
+.socialNetwork2 {
+    color: rgb(114, 113, 113);
+    padding: 5px;
+}
+.socialNetwork2:hover {
+    color: #8c4429;
+}
+
+.blackbtn {
+    background-color: black;
+    border: dashed 0.5px rgb(212, 179, 146);
+    color: rgb(212, 179, 146);
+    padding: 25px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.5s;
+    text-align: center;
+}
+    
+.blackbtn:hover {
+    color: #8c4429;
+    transform: scale(1.8);
+}
+
+.footStyle {
+    background-color: #262626;
+    padding: 20px;
+}
+
+.booknow {
+    text-decoration: none;
+    color: #262626;
+    font-size: 12px;
+}
+
+.booknow:hover {
+    color: #f24110;
+}
+
+.booknow1 {
+    color: #262626;
+}
+
+.email-bt {
+    background:#262626;
+    border:2px solid #F95C18;
+    border-radius:50%; 
+    box-shadow:0 8px 10px rgba(249,92,24,0.3);
+    cursor:pointer;
+    height:68px;
+    text-align:center;
+    width:68px;
+    position: fixed;
+    left: 85%;
+    bottom: 18%;
+    z-index:999;
+    transition:.3s;
+    -webkit-animation:email-an linear 1s infinite;
+    animation:email-an linear 1s infinite;
+}
+
+.email-bt .text-call {
+    height:68px;
+    width:68px;        
+    border-radius:50%;
+    position:relative;
+    overflow:hidden;
+}
+
+.email-bt .text-call span {
+    text-align: center;
+    color:#F95C18;
+    opacity: 0;
+    font-size: 0;
+    position:absolute;
+    right: 4px;
+    top: 22px;
+    line-height: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: opacity .3s linear;
+    font-family: 'montserrat', Arial, Helvetica, sans-serif;
+}
+
+.email-bt .text-call:hover span {
+    opacity: 1;
+    font-size: 11px;
+}
+.email-bt:hover i {
+    display:none;
+}
+
+.email-bt:hover {
+    z-index:1;
+    background:#fff;
+    transition:.3s;
+    margin-bottom: 10px;
+}
+.email-bt:hover i {
+    color:#262626;
+    font-size:40px;
+    transition:.3s;
+}
+.email-bt i {
+    color:#fff;
+    font-size:39px;
+    transition:.3s;
+    line-height: 50px;
+    margin-right: 3px;
+}
+.email-bt i  {
+    -webkit-animation: opsimple 3s infinite;
+    animation: opsimple 3s infinite;
+}
+
+@-webkit-keyframes email-an {
+    0% {
+    box-shadow:0 8px 10px rgba(249,92,24,0.3),0 0 0 0 rgba(249,92,24,0.2),0 0 0 0 rgba(249,92,24,0.2)
+}
+40% {
+    box-shadow:0 8px 10px rgba(249,92,24,0.3),0 0 0 15px rgba(249,92,24,0.2),0 0 0 0 rgba(249,92,24,0.2)
+}
+80% {
+    box-shadow:0 8px 10px rgba(249,92,24,0.3),0 0 0 30px rgba(249,92,24,0),0 0 0 26.7px rgba(249,92,24,0.067)
+}
+100% {
+    box-shadow:0 8px 10px rgba(249,92,24,0.3),0 0 0 30px rgba(249,92,24,0),0 0 0 40px rgba(249,92,24,0.0)
+}
+}@keyframes email-an {
+    0% {
+    box-shadow:0 8px 10px rgba(249,92,24,0.3),0 0 0 0 rgba(249,92,24,0.2),0 0 0 0 rgba(249,92,24,0.2)
+}
+40% {
+    box-shadow:0 8px 10px rgba(249,92,24,0.3),0 0 0 15px rgba(249,92,24,0.2),0 0 0 0 rgba(249,92,24,0.2)
+}
+80% {
+    box-shadow:0 8px 10px rgba(249,92,24,0.3),0 0 0 30px rgba(249,92,24,0),0 0 0 26.7px rgba(249,92,24,0.067)
+}
+100% {
+    box-shadow:0 8px 10px rgba(249,92,24,0.3),0 0 0 30px rgba(249,92,24,0),0 0 0 40px rgba(249,92,24,0.0)
+}
+}
+
+@keyframes opsimple {
+0% {
+opacity: 0;
+}
+40% {
+opacity: 1;
+}
+
+80% {
+opacity: 1;
+}
+100% {
+opacity: 0;
+}
+}
+
+@-webkit-keyframes opsimple {
+0% {
+opacity: 0;
+}
+40% {
+opacity: 1;
+}
+80% {
+opacity: 1;
+}
+100% {
+opacity: 0;
+}
+}
+
+@media all and (max-width:1130px) {
+
+col {
+    height: 600px;
+}
+
+.imgSize{
+    height: 380px;
+    width: 260px;
+}
+
+.mrbarber {
+    width: 100px;
+}
+
+.barberText {
+    font-size: 16px;
+}
+
+.flip-card-inner {
+    height: 380px;
+    width: 260px;
+}
+
+.flip-card {
+    height: 400px;
+    width: 260px;
+}
+
+.flip-card-front {
+    height: 380px;
+    width: 260px;
+}
+
+.flip-card-back {
+    height: 380px;
+    width: 260px;
+}
+
+.barberName {
+    width: 260px;
+}
+}
+
+@media all and (max-width:820px) {
+
+.size {
+    margin-top: 150px;
+}
+    
+.size1 {
+    font-size: 55px;
+}
+
+.fix-bg {
+    min-height: 400px;
+}
+
+.textSize {
+    font-size: 25px;
+    margin-top: 40%;
+}
+    
+.textSize2 {
+    font-size: 15px;
+}
+
+.shop {
+    width:0px;
+    border: none;
+} 
+
+.text-block {
+    border: none;
+}
+
+col {
+    height: 600px;
+}
+
+.imgSize{
+    height: 350px;
+    width: 240px;
+}
+
+.mrbarber {
+    width: 100px;
+}
+
+.barberText {
+    font-size: 15px;
+}
+
+.barberName {
+    width: 240px;
+}
+
+.flip-card-inner {
+    height: 350px;
+    width: 240px;
+}
+
+.flip-card {
+    height: 370px;
+    width: 240px;
+}
+
+.flip-card-front {
+    height: 350px;
+    width: 240px;
+}
+
+.flip-card-back {
+    height: 350px;
+    width: 240px;
+}
+
+.b12 {
+    width: 92%;
+    margin-left: 5%;
+}
+}
+
+@media all and (max-width:540px){
+    .teamSize{
+        margin-left: 20%;
+    }
+
+    .flip-card-inner {
+        height: 570px;
+        width: 350px;
+    }
+        
+    .flip-card {
+        height: 590px;
+        width: 350px;
+    }
+        
+    .flip-card-front {
+        height: 570px;
+        width: 350px;
+    }
+        
+    .flip-card-back {
+        height: 570px;
+        width: 350px;
+    }
+        
+    .imgSize{
+        height: 570px;
+        width: 350px;
+    }
+
+    .barberName {
+        width: 350px;
+    }
+    .email-bt {
+    margin-right: 100px;
+}
+}
+
+@media all and (max-width:500px){
+
+.size1 {
+    font-size: 40px;
+}
+
+.textSize {
+    font-size: 27px;
+}
+
+.flip-card-inner {
+    height: 470px;
+    width: 350px;
+}
+    
+.flip-card {
+    height: 490px;
+    width: 350px;
+}
+    
+.flip-card-front {
+    height: 470px;
+    width: 350px;
+}
+    
+.flip-card-back {
+    height: 470px;
+    width: 350px;
+}
+    
+.imgSize{
+    height: 470px;
+    width: 350px;
+}
+
+.barberText {
+    font-size: 16px;
+}
+
+.barberName {
+    width: 350px;
+}
+.teamSize{
+    margin-left: 10px;
+}
+.email-bt {
+    left: 80%;
+}
+
+.b12 {
+    width: 90%;
+    margin-left: 5%;
+}
+}
+
